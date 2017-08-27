@@ -17,7 +17,7 @@ For testing, you can also look for datasets on the net. Sample (though the categ
 ## Approaches <br />
 1) Approach1: Bruteforce approach <br />
   This is not a machine learning based approach, but a simple rule based, which I understood by analyzing the data.  <br />
-  But it gives very high accuracy of 98% <br />
+  And it gives very high accuracy of 98% <br />
    <br />
 2) Approach2: Attention Layer Based approach  <br />
 	Attention Layer identifies which words are important in the message. Implemented a Attention Layer on the Subject msg.  <br />
