@@ -30,6 +30,8 @@ For testing, you can also look for datasets on the net. Sample (though the categ
   
   
 ## Instructions to run the code:
+```
 1) pip install -r requirements.txt
 2) Change the file paths in the code 
 3) Execute the python file
+```
