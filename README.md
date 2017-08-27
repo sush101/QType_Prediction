@@ -1,5 +1,4 @@
-# QType_Prediction
-Question type prediction
+# Question type prediction
 
 ## Goal
 Identify Question Type: Given a question, the aim is to identify the category it belongs to. The four categories are : Who, What, When, Affirmation(yes/no).
@@ -30,11 +29,7 @@ For testing, you can also look for datasets on the net. Sample (though the categ
   Executed RandomForestClassifier on the data and got accuracy of average 78%.
   
   
-Uploaded the files on the github repository. Here is the link https://github.com/sush101/QType_Prediction
-
-Uploaded requirements.txt showing the dependencies.
-
-Instructions to run the code:
+## Instructions to run the code:
 1) pip install -r requirements.txt
 2) Change the file paths in the code 
 3) Execute the python file
