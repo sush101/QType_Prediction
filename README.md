@@ -6,15 +6,16 @@ Identify Question Type: Given a question, the aim is to identify the category it
 Label any sentence that does not fall in any of the above four as "Unknown" type.
 
 Example:
-``1. What is your name? Type: What
-2. When is the show happening? Type: When
-3. Is there a cab available for airport? Type: Affirmation``
-There are ambiguous cases to handle as well like:
+``1. What is your name? Type: What <br />
+2. When is the show happening? Type: When <br />
+3. Is there a cab available for airport? Type: Affirmation`` <br />
+There are ambiguous cases to handle as well like: <br />
 ``What time does the train leave(this looks like a what question but is actually a When type)``
 
-
+## Testing
 For testing, you can also look for datasets on the net. Sample (though the categories are different here): http://cogcomp.cs.illinois.edu/Data/QA/QC/train_1000.label
 
+## Approaches
 1) Approach1: Bruteforce approach 
   This is not a machine learning based approach, but a simple rule based, which I understood by analyzing the data
   But it gives very high accuracy of 98%
