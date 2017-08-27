@@ -23,11 +23,11 @@ For testing, you can also look for datasets on the net. Sample (though the categ
 	Attention Layer identifies which words are important in the message. Implemented a Attention Layer on the Subject msg.  <br />
 	Trained the on the data with multiple epochs, but got an accuracy of 11% <br />
 	With this approach, I could not achieve good results. <br />
- <br />
+   <br />
 3) Approach3: RandomForest ( and Decision Tree) based approach <br />
   Converted the Subject msg to sequences format using text_to_sequences module and prepared X and y data. <br />
   Executed RandomForestClassifier on the data and got accuracy of average 78%. <br />
-  
+   <br />
   
 ## Instructions to run the code:
 ```
